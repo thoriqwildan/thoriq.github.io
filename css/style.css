@@ -103,11 +103,11 @@ body {
     height: 140vh;
   }
   .greetings {
-    width: 100%;
+    width: 95%;
   }
   .description {
     width: 250px;
-    padding-left: 10%;
+    padding-left: 15%;
   }
 
   .btn a {
