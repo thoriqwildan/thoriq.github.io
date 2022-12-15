@@ -46,6 +46,8 @@ body {
   text-align: center;
   margin-top: 35px;
   transition: all 0.2s;
+  background-color: #39c6d6;
+  border-radius: 10px;
 }
 
 .btn:hover {
@@ -106,5 +108,24 @@ body {
   .description {
     width: 250px;
     padding-left: 10%;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: var(--txt-secondary);
+  }
+
+  .btn {
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    margin-top: 35px;
+    transition: all 0.2s;
+  }
+
+  .btn:hover {
+    transform: scale(1.15);
+    color: #fff;
+    border: none;
+    background-color: #39c6d6;
   }
 }
